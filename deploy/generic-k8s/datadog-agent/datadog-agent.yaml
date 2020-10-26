@@ -9,7 +9,7 @@ type: Opaque
 data:
   api-key: <replace_with_base64_of_your_api_key> 
 ---
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: DaemonSet
 metadata:
   name: datadog-agent
